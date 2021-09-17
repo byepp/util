@@ -1,0 +1,7 @@
+.idea/
+/xlsxutil/currency.xlsx
+/xlsxutil/currency/
+/xlsx/testdocs/
+~$*.xlsx
+stderr.log
+stdout.log
