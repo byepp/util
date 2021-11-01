@@ -4,10 +4,10 @@ go 1.17
 
 require (
 	github.com/BurntSushi/toml v0.4.1
-	github.com/frankban/quicktest v1.13.1
+	github.com/frankban/quicktest v1.14.0
 	github.com/go-http-utils/headers v0.0.0-20181008091004-fed159eddc2a
 	github.com/google/uuid v1.3.0
-	github.com/shopspring/decimal v1.2.0
+	github.com/shopspring/decimal v1.3.1
 	github.com/stretchr/testify v1.7.0
 	github.com/technoweenie/multipartstreamer v1.0.1
 	go.uber.org/zap v1.19.1
