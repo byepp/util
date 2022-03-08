@@ -50,9 +50,7 @@ func MakeSureDirExists(path string) {
 		return
 	}
 	if os.IsNotExist(err) {
-		err := os.MkdirAll(dir, os.ModePerm)
-		if err != nil {
-		}
+		_ = os.MkdirAll(dir, os.ModePerm)
 	}
 }
 
@@ -74,4 +72,13 @@ func RemoveDirAll(dirname string) error {
 		}
 	}
 	return nil
+}
+
+// 判断路径是否是文件
+func IsFile(path string) bool {
+	fi, e := os.Stat(path)
+	if e != nil {
+		return false
+	}
+	return !fi.IsDir()
 }
