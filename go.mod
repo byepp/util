@@ -8,7 +8,7 @@ require (
 	github.com/shopspring/decimal v1.3.1
 	github.com/stretchr/testify v1.8.0
 	github.com/technoweenie/multipartstreamer v1.0.1
-	go.uber.org/zap v1.22.0
+	go.uber.org/zap v1.23.0
 	golang.org/x/text v0.3.7
 	gopkg.in/yaml.v3 v3.0.1
 )
