@@ -9,7 +9,7 @@ require (
 	github.com/stretchr/testify v1.8.1
 	github.com/technoweenie/multipartstreamer v1.0.1
 	go.uber.org/zap v1.24.0
-	golang.org/x/text v0.5.0
+	golang.org/x/text v0.6.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
