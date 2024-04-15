@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/go-http-utils/headers v0.0.0-20181008091004-fed159eddc2a
 	github.com/google/uuid v1.6.0
-	github.com/shopspring/decimal v1.3.1
+	github.com/shopspring/decimal v1.4.0
 	github.com/stretchr/testify v1.9.0
 	github.com/technoweenie/multipartstreamer v1.0.1
 	go.uber.org/zap v1.27.0
