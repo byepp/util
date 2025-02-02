@@ -1,7 +1,6 @@
 package fileutil
 
 import (
-	"io/ioutil"
 	"os"
 	"path/filepath"
 	"sync"
@@ -21,7 +20,7 @@ func FileWriteAll(filename string, data []byte) error {
 	if IsFileExist(filename) {
 		DeleteFile(filename)
 	}
-	return ioutil.WriteFile(filename, data, os.ModeAppend)
+	return os.WriteFile(filename, data, 0744)
 }
 
 // 获取当前运行目录
@@ -50,7 +49,7 @@ func MakeSureDirExists(path string) {
 		return
 	}
 	if os.IsNotExist(err) {
-		_ = os.MkdirAll(dir, os.ModePerm)
+		_ = os.MkdirAll(dir, 0644)
 	}
 }
 
