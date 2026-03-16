@@ -1,6 +1,6 @@
 module github.com/byepp/util
 
-go 1.24.0
+go 1.25.0
 
 require (
 	github.com/go-http-utils/headers v0.0.0-20181008091004-fed159eddc2a
@@ -9,7 +9,7 @@ require (
 	github.com/stretchr/testify v1.11.1
 	github.com/technoweenie/multipartstreamer v1.0.1
 	go.uber.org/zap v1.27.1
-	golang.org/x/text v0.34.0
+	golang.org/x/text v0.35.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
